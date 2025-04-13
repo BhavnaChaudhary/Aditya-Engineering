@@ -44,7 +44,7 @@ const About = () => {
         <div className="container-custom">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="heading-section">Our Company</h2>
+              <h2 className="heading-section">{import.meta.env.VITE_NAME}</h2>
               <p className="text-gray-600 mb-4">
                 Established in 2016, Aditya Engineering has grown to become a respected name in the fabrication and 
                 machinery manufacturing sector. Based in Ahmedabad, Gujarat, we specialize in providing 
